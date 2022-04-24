@@ -1,15 +1,10 @@
 # pps
 #include <stdio.h>
-int main() {
-    int num;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
-
-    // true if num is perfectly divisible by 2
-    if(num % 2 == 0)
-        printf("%d is even.", num);
-    else
-        printf("%d is odd.", num);
-    
-    return 0;
+int main()
+{
+int n;
+int tot_square;
+scanf("%d",&n);tot_square=(n*(n+1)/2)*(2*n+1)/3;
+printf("%d",tot_square);
+	return 0;
 }
